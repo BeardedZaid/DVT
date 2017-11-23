@@ -1,0 +1,7 @@
+Please ensure that the app is opened in Firefox.
+If you wish to open the app in Google Chrome, please ensure that the app is locally hosted.
+
+Chrome does not allow AngularJS routing, as it treats the routing process as a CORS violation.
+Routing is essential for any AngularJS App, as it allows for a single page application to have multiple views.
+
+Please ensure that you specify additional filters in the Settings Page, by making use of the checkboxes.
