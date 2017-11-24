@@ -9,13 +9,13 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
 	$stateProvider
 		//routing to Groups Page
 		.state('Groups',{
-			url:'views/',
+			url:'/',
 			templateUrl:'Groups.html',
 			controller:'GroupController'
 		})
 		//routing to Settings Page
 		.state('Settings',{ 
-			url:'views/',
+			url:'/',
 			templateUrl:'Settings.html',
 			controller:'CategoryController',
 			cache: false
